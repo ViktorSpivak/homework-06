@@ -18,10 +18,11 @@ img {display: block;}
 .topic1 h3{text-align: center;font-family: 'Montserrat', sans-serif; font-size: 30px; text-transform: uppercase; font-weight: bold;}
 .topic1::after {content: "";position: absolute; border: none; width: 60px; height: 3px; background-color: #f38181; left: 50%; transform: translateX(-50%);}
 
-.services {display: inline-flex; flex-wrap: wrap;}
-.services-element {display: inline-block;width:380px; height: 100px;}
-.services-element h4 {margin: 0;font-family: 'Montserrat', sans-serif; font-size: 14px; color: #000000;text-transform: uppercase; }
-.services-element h5 {margin: 0;font-family: 'Roboto', sans-serif;font-size: 15px;font-weight: 400; color: #999999;}
+.services {display: inline-flex; flex-wrap: wrap; justify-content: space-between;}
+.services-element img{display: inline-block;}
+.services-element {display: inline-block;width:380px; height: 66px;}
+.services-element h4 {display: inline-block; margin: 0;font-family: 'Montserrat', sans-serif; font-size: 14px; color: #000000;text-transform: uppercase; }
+.services-element h5 {display: inline-block;width: 300px; margin: 0;font-family: 'Roboto', sans-serif;font-size: 15px;font-weight: 400; color: #999999;}
 
 .topic2 {display: inline-block; width: inherit;}
 .topic2 h2{text-align: center;font-family: 'Kaushan Script', cursive; font-size: 24px; color: #000000;}
@@ -40,8 +41,8 @@ img {display: block;}
 .team-list-move:hover {transform: translate(-10px,-10px);}
 .team-list-move:hover>ul {opacity: 1;}
 .team-list-icon li:hover {background-color: #95e1d3;}
-.team-list-name h2{font-family: 'Montserrat', sans-serif; font-size: 14px; color: #000000;text-transform: uppercase;}
-.team-list-name h3{font-family: 'Roboto', sans-serif;font-size: 15px;font-weight: 300; font-style: italic; color: #999999;}
+.team-list-name h2{text-align: center; font-family: 'Montserrat', sans-serif; font-size: 14px; color: #000000;text-transform: uppercase;}
+.team-list-name h3{text-align: center; font-family: 'Roboto', sans-serif;font-size: 15px;font-weight: 300; font-style: italic; color: #999999;}
 
 .team-list-mask{position: absolute; width: 380px; height: 470px; background:linear-gradient(to top, #f1d887,#ef8a8a);opacity: 0;}
 .team-list-move:hover>.team-list-mask {opacity: 0.9;}
