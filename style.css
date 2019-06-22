@@ -8,7 +8,7 @@ img {display: block;}
 .container {width: 1200px;margin: 0 auto; padding: 0;}
 
 
-.menu {display:flex; justify-content: space-between; justify-content: baseline;margin-bottom: 128px;}
+.menu {display:flex; justify-content: space-between;align-items: center; margin-bottom: 128px;}
 .menu-logo {display: block; background-image: url(images/logo.png); width: 86px; height: 23px; }
 .menu-points {display: inline-flex; list-style: none;padding: 0; margin: 0; width: 490px;justify-content: space-between;}
 .menu-points li a {position: relative;display: inline-block; text-decoration: none; font-family: 'Montserrat', sans-serif;font-size: 14px;text-transform: uppercase;color: #9ce3d6 ;  transition: color 200ms linear;  }
