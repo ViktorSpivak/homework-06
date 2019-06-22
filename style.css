@@ -7,11 +7,12 @@ img {display: block;}
 
 .container {width: 1200px;margin: 0 auto; padding: 0;}
 
-.logo {display: block; background-image: url(images/logo.png); width: 86px; height: 23px;}
-.menu-box {display:flex; justify-content: space-between; justify-content: baseline;}
+
+.menu {display:flex; justify-content: space-between; justify-content: baseline;margin-bottom: 128px;}
+.menu-logo {display: block; background-image: url(images/logo.png); width: 86px; height: 23px; }
 .menu-points {display: inline-flex; list-style: none;padding: 0; margin: 0; width: 490px;justify-content: space-between;}
-.menu-points li a {display: inline-block; text-decoration: none; font-family: 'Montserrat', sans-serif;font-size: 14px;text-transform: uppercase;color: #9ce3d6 ;  transition: color 200ms linear; position: relative; }
-.menu-points li a::after{content: ""; position: absolute;transform: translate(-100%);top: 25px; width: 100%;height: 3px; background-color: #f38181;transition: opacity 200ms linear; opacity: 0;}
+.menu-points li a {position: relative;display: inline-block; text-decoration: none; font-family: 'Montserrat', sans-serif;font-size: 14px;text-transform: uppercase;color: #9ce3d6 ;  transition: color 200ms linear;  }
+.menu-points li a::after{content: ""; position: absolute;transform: translate(-100%);bottom: -12px; width: 100%;height: 3px; background-color: #f38181;transition: opacity 200ms linear; opacity: 0;}
 .menu-points li a:hover {color:#f38181;}
 .menu-points li:hover ::after {opacity: 1;}
 
@@ -20,8 +21,7 @@ img {display: block;}
 .topic1 h3{font-family: 'Montserrat', sans-serif; font-size: 30px; text-transform: uppercase; font-weight: bold;}
 .topic1::after {content: "";position: absolute;left: 50%; border: none; width: 60px; height: 3px; background-color: #f38181;  transform: translateX(-50%);}
 
-.services {display: inline-flex; flex-wrap: wrap; justify-content: space-between;}
-
+.services {display: inline-flex; flex-wrap: wrap; justify-content: space-between; margin-top: 66px}
 .services-element {display: inline-block;width:380px; height: 66px;margin-top: 66px;margin-bottom: 44px;}
 .services-element img{display: inline-block; margin: 0 26px 52px 16px;}
 .services-element-text {display: inline-block;}
@@ -34,13 +34,12 @@ img {display: block;}
 .topic2 h4 {display: inline-block; width: 980px; text-align: center; font-family: 'Roboto', sans-serif;font-size: 15px; font-weight: 400; color: #999999;}
 .topic2::after {content: "";position: absolute; border: none; width: 60px;height: 3px; background-color: #f38181; left: 50%; transform: translateX(-50%);}
 
-.team { display: inline-flex; justify-content: space-between; width: inherit; margin-bottom: 50px;}
+.team { display: inline-flex; justify-content: space-between; width: inherit; margin-bottom: 50px; margin-top: 90px;}
 .team-list{margin: 0;position: relative;}
 .team-list-icon {opacity: 0; display: inline-block;position: absolute; top: 50%; left: 50%; transform: translate(-50%,-50%);  list-style: none;  width:224px; height:56px; margin: 0;padding: 0;font-size: 0;z-index: 2;transition: opacity 0.2s linear; }
 .team-list-icon li{display: inline-flex; width: 55px; height: 55px;background-color: #fce38a; margin-right: 1px;}
 .team-list-icon a {display: block;width: inherit; background-repeat: no-repeat;}
 .team-list-move {display: block;width: 380px; height: 470px; transition: transform 200ms linear;}
-
 .team-list-move img{position: absolute;}
 .team-list-move::before{content: ""; position: absolute; width: 380px; height: 470px; background-color: #95e1d3;transition: opacity 0.2s linear, transform 0.2s linear;}
 .team-list-move::after {content: ""; position: absolute; width: 380px; height: 470px; background:linear-gradient(to top, #f1d887,#ef8a8a);transition: opacity 0.2s linear; opacity: 0;}
@@ -59,12 +58,14 @@ img {display: block;}
 .team-list-icon3{background-image: url(images/pinterest.png);background-position: center;}
 .team-list-icon4{background-image: url(images/instagram.png);background-position: center;}
 
-.made-in {display: block; width: inherit; position: relative;}
-.footer::before {position: absolute; content: ''; width: inherit; border: none; height: 2px;background-color: #999999;}
-.made-in h2 {display: inline-block; font-family: 'Montserrat', sans-serif; font-size: 14px; color: #000000;}
-.made-in a {display: inline; text-decoration: none;color: #f59191;}
+.final {position: relative; display: inline-flex; justify-content: space-between;width: inherit; align-items: center; height: 62px;}
+.final::before {position: absolute; content: ''; width: inherit;top:0; border: none; height: 2px;background-color: #999999;}
+.final-made-in {display: block; width: inherit; position: relative;}
+.final-made-in h2 {display: inline-block; font-family: 'Montserrat', sans-serif; font-size: 14px; color: #000000;}
+.final-made-in a {display: inline; text-decoration: none;color: #f59191;}
 
-.footer {display: inline-flex; justify-content: space-between;width: inherit; align-items: baseline;}
-
+.final-form {display:inline-block; flex-shrink: 0;height: 40px; border-style: solid;border-width: 1px; border-color: #999999;  }
+.final-form input{display: inline-block;width: 230px;border: none; padding: 0; height: 37px; font-family: 'Roboto', sans-serif; font-size: 15px; font-style: italic;font-weight: 300; }
+.final-form button{display: inline-block; width: 150px; border: none; background:#95e1d3;padding: 0;height: 38px;font-family: 'Montserrat', sans-serif;text-transform: uppercase; font-size: 14px;  }
 
 
